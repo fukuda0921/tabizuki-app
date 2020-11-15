@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+.top-page-header {
+  width: 100vw;
+  height: 10vh;
+ 
+  display: flex;
+  }
+.nav{
+  display: flex;
+  width: 30vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  text-decoration: none;
+  font-size: 20px;
+  color: honeydew;
+  font-family:  'arial black',serif;
+  
+}
+.main{
+  height: 100vh; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(https://images.pexels.com/photos/347145/pexels-photo-347145.jpeg?cs=srgb&dl=pexels-tirachard-kumtanom-347145.jpg&fm=jpg);
+}
+.top-message{
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 30vh;
+  margin-left: 30vh;
+  font-size: 80px;
+}
+.first-message{
+  color:honeydew;
+}
+.second-message{
+  width: 100vw;
+  height: 50vh;
+}
+.button{
+  display: flex;
+  font-family:  'arial black',serif;
+  font-size: 20px;
+}
+.first-button{
+  text-decoration: none;
+  color: white;
+  background-color: 	#FF773E;
+  border: 18px solid 	#FF773E;
+  border-radius:100px;
+  margin-left: 280px;
+}
+.second-button{
+  margin-left: 100px;
+  background-color: 	#FF773E;
+  border: 18px solid 	#FF773E;
+  text-decoration: none;
+  border-radius:100px;
+  color: white;
+}
+.footer{
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  color: white;
+}
+
+
