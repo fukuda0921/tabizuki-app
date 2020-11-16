@@ -1,19 +1,13 @@
 <div class='main'>
-  <header class='top-page-header'>
-    <div class='nav'>
-      <%= link_to 'tabizuki',"#",class:'title' %> 
-    </div>
-  </header> 
+  <%= render "shared/header" %>
   <div class='top-message'>
     <h1 class='first-message'>さあ、旅にでよう。</h1>
   </div>
   <div class='second-message'>
     <ul class='button'>
-      <li><%= link_to 'ログイン', "#", class: 'first-button'%></li>
-      <li><%= link_to '新規登録', "#", class: 'second-button'%></li>
+      <li><%= link_to 'ログイン', "#", class: 'login'%></li>
+      <li><%= link_to '新規登録', "#", class: 'sign-up'%></li>
     </ul>
   </div>
-  <footer class='footer'>
-  <p>© TABIZUKI</P>
-  </footer>
+  <%= render "shared/footer"%>
 </div>
