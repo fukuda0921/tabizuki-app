@@ -1,9 +1,11 @@
 <header class='top-page-header'>
     <div class='nav'>
-      <%= link_to 'tabizuki',"#",class:'title' %> 
+      <%= link_to 'tabizuki',root_path,class:'title' %> 
     </div>
+    <% if user_signed_in? %>
     <ul class='second-button'>
       <li><%= link_to 'マイページ', "#", class: 'my-page'%></li>
       <li><%= link_to 'ログアウト', "#", class: 'sign-out'%></li>
     </ul>
+    <% end %>
 </header> 
