@@ -1,7 +1,10 @@
 .footer{
+  width: 100vw;
   height: 10vh;
   display: flex;
   align-items: center;
   padding-left: 50px;
   color: white;
+  position: absolute;
+  bottom: 0; 
 }
