@@ -1,0 +1,79 @@
+.registration-page{
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg?cs=srgb&dl=pexels-millionairemobcom-1673978.jpg&fm=jpg);
+  background-attachment:fixed;
+}
+.registration-form{
+  width: 100vw;
+  height: calc(100vh - 10vh - 15vh);
+  display: flex;
+  justify-content: center;
+}
+.registration-form-area{
+  width: 35vw;
+  height: calc(100vh - 10vh - 200px);
+  border: 2px solid black;
+  border-radius: 60px;
+  background:whitesmoke;
+  position: absolute;
+  opacity: 0.9;
+}
+.registration-form-header{
+  width: 15vw;
+  height: 45px;
+  border-bottom: 1px solid black;
+  margin: auto;
+  display: flex;
+}
+.registration-form-text{
+  font-size: 20px;
+  margin: auto;
+}
+.registration-form-wrap{
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.registration-text{
+font-size: 15px;
+}
+.indispensable{
+  margin-left: 15px;
+  background-color: rgb(248, 52, 52);
+  border: 1px solid black;
+  border-radius: 80px;
+  padding:3px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input-default-registration{
+  margin-top: 8px;
+  width: 20vw;
+  height: 35px;
+  border-bottom: 2px solid black;
+  border-top:none;
+  border-left: none;
+  border-right: none;
+  resize: none;
+  background: transparent;
+  outline: none;
+  margin-left: 100px;
+  padding: 10px 16px 8px;
+}
+.input-default-registration::placeholder{
+  font-family: "Helvetica Neue";
+  color:black;
+  font-size: 12px;
+}
+.registration-btn{
+  margin-top: 50px;
+  display: flex;
+}
+.registration-submit{
+  margin: auto;
+  padding: 15px;
+  width: 90px;
+}
