@@ -1,7 +1,6 @@
 .top-page-header {
   width: 100vw;
   height: 10vh;
- 
   display: flex;
   }
 .nav{
@@ -33,13 +32,8 @@
   border: 8px solid 	#FF773E;
   border-radius:100px;
 }
-
-.my-page{
-  color: white;
-  text-decoration: none;
-  background-color: 	#FF773E;
-  border: 8px solid 	#FF773E;
-  border-radius:100px;
-  }
-
-  
+.my-name{
+text-decoration: none;
+color: black;
+font-size: 18px;
+}

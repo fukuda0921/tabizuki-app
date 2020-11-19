@@ -1,0 +1,67 @@
+.post-main{
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment:fixed;
+  background-image: url(https://images.pexels.com/photos/2303781/pexels-photo-2303781.jpeg?cs=srgb&dl=pexels-gya-den-2303781.jpg&fm=jpg);
+}
+.explanation-area{
+  width: 100vw;
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+}
+.explanation-box{
+  margin: 0 auto;
+  width: 30vw;
+  background-color:white;
+  border-radius: 40px;
+  opacity: 0.7;
+  
+}
+.explanation-title{
+  color: black;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.explanation-title-text{
+  margin: auto;
+}
+.explanation-text{
+  padding: 14px ;
+}
+.my-page{
+  color: white;
+  text-decoration: none;
+  background-color: 	#FF773E;
+  border: 8px solid 	#FF773E;
+  border-radius:100px;
+  margin-left:11vw;
+  }
+  .new-post-btn{
+    color: white;
+    text-decoration: none;
+    background-color: 	#FF773E;
+    border: 10px solid 	#FF773E;
+    border-radius:30px;
+    margin-left: 12vw;
+  }
+  .new-post-area{
+    margin-top: 20px;
+  }
+  .posts-title-area{
+    margin-top: 150px;
+    height: 200px;
+    width: 100vw;
+  }
+  .posts-title{
+    color: black;
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 30px;
+    padding:10px;
+    border-bottom: 2px solid black;
+  }
