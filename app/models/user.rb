@@ -7,4 +7,5 @@ class User < ApplicationRecord
   validates :password, format: { with: PASSWORD_REGEX }
   
   validates :nickname, presence: true
+  has_many :posts
 end
