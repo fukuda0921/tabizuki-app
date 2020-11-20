@@ -54,7 +54,7 @@
   }
   .posts-title-area{
     margin-top: 150px;
-    height: 200px;
+    height: 100px;
     width: 100vw;
   }
   .posts-title{
@@ -64,4 +64,46 @@
     font-size: 30px;
     padding:10px;
     border-bottom: 2px solid black;
+  }
+  .post-area{
+    width: 100vw;
+    height:600px;
+    display: flex;
+    justify-content: center;
+  }
+  .post-image-area{
+    margin-top: 150px;
+   width: 40vw;
+   height: 350px;
+   flex-direction:row-reverse;
+  }
+  .post-info-area{
+    margin-top: 150px;
+    margin-left: 5vh;
+    width: 30vw;
+    height: 350px;
+    
+  }
+  .post-info-header{
+  margin-top: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  
+  }
+  .post-info-title{
+    font-size: 15px;
+    color: black;
+  }
+  .post-info-text{
+    height: 180px;
+    margin-top: 30px;
+  }
+  .post-info-footer{
+    margin-top: 10px;
+    height: 20px;
+  }
+  .post-info-nickname{
+    margin-left: 20vw;
+    font-size: 12px;
   }
