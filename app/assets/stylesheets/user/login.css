@@ -8,10 +8,10 @@
 }
 .login-area{
    width: 100vw;
-   height: 80vh;
+   height: calc(100vh - 10vh - 15vh);
 }
 .login-form{
-   height:80vh;
+   height:calc(100vh - 10vh - 200px);
    width: 30vw;
    margin-left:750px;
    margin-top: 30px;
@@ -21,7 +21,7 @@
 
 .login-form-email{
    margin:auto;
-   margin-top: 6vh;
+   margin-top: 10px;
    height: 6vh;
    width: 300px;
    border-bottom: 2px solid black;
