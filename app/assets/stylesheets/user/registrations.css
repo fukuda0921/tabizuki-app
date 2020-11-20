@@ -14,7 +14,7 @@
 }
 .registration-form-area{
   width: 35vw;
-  height: calc(100vh - 10vh - 200px);
+  height: calc(100vh - 10vh - 150px);
   border: 2px solid black;
   border-radius: 60px;
   background:whitesmoke;

@@ -1,0 +1,62 @@
+<div class='post-new-page'>
+<%= render "shared/header"%>
+  <div class='post-new-header'>
+  <h1 class='post-new-header-text'>新規投稿<h1>
+  </div>
+
+  <div class='post-new-note-area'>
+   <h2 class='post-note-title'>新規投稿していただく前に以下の注意事項を確認してください。</h2>
+   <ul class='post-note-text'>
+    <li>①投稿写真の内容に十分注意してください。個人を特定できる写真は控えましょう。</li>
+    <li>②tabizukiは地方の魅力を伝えることを目的としている為、ネガティブな投稿を禁じます。いいなと感じたことのみ記入して下さい。</li>
+   </ul>
+  </div>
+
+  <%= form_with(model: @post, local: true) do |f| %>
+  <div class='post-new-body'>
+    <div class='post-new-form'>
+      <div class='post-img-area'><b class='img-text'>img</b></div>
+      <div class='img-upload'>旅のベストショットを選んでください！
+        <span class='post-indispensable'>必須</span>
+        <%= f.file_field :image, id:"item-image", class: 'post-img-btn' %>
+      </div>
+
+      <div class='post-new-upload'>旅のタイトルを記述してください！
+        <span class='post-indispensable'>必須</span>
+      </div>
+      <%= f.text_area :title, class:"posts-text", id:"post-title", placeholder:"例）こんな場所に！絶景！！最大25文字", maxlength:"25" %>
+
+      <div class='post-new-upload'>旅先の都道府県を選択してください！
+        <span class='post-indispensable'>必須</span>
+      </div>
+      <%= f.collection_select(:prefecture_id, Prefecture.all, :id, :name, {}, {class:"select-box", id:"post-prefecture"}) %>
+
+      <div class='post-new-upload'>行った場所を記載してください！
+        <span class='post-indispensable'>必須</span>
+      </div>
+      <%= f.text_area :place, class:"posts-text", id:"post-place", placeholder:"例）○○森、〇〇ていう定食屋さん", maxlength:"20" %>
+
+
+      <div class='post-new-upload'>旅の費用を選んでください！
+        <span class='post-indispensable'>必須</span>
+        <p class='post-new-note'>※交通費は含めないでください</p>
+      </div>
+      <%= f.collection_select(:budget_id, Budget.all, :id, :name, {}, {class:"select-box", id:"post-budget"}) %>
+
+      <div class='post-new-upload'>旅先での主な交通手段を選んでください！
+        <span class='post-indispensable'>必須</span>
+      </div>
+      <%= f.collection_select(:transportation_id, Transportation.all, :id, :name, {}, {class:"select-box", id:"post-transportation"}) %>
+
+      <div class='post-new-upload'>旅先の良さを書いてください！
+        <span class='post-indispensable'>必須</span>
+      </div>
+      <%= f.text_area :explain, class:"posts-new-explain", id:"post-explain", placeholder:"例）今回は、以前にメンバーさんが行かれていた○○に行ってきました！写真で見るよりも絶景で興奮しました。そしてなんと言っても場所がすごいんです、えっ！こんな場所にってなります！是非みなさんも行ってそれを味わってください！ホテルの近くの商店街に行ったんですが、確かに新しくはなかったですが、地元の人たちののんびりした感じがすごく心地よかったです！最大４００文字", maxlength:"400" %>
+      <div class='post-btn-area'>
+      <%= f.submit "投稿する" ,class:"post-btn" %>
+      </div>
+    </div>
+  </div>
+  <% end %>
+  <%= render "shared/footer"%>
+</div>
