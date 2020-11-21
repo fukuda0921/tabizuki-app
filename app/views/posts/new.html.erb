@@ -15,10 +15,10 @@
   <%= form_with(model: @post, local: true) do |f| %>
   <div class='post-new-body'>
     <div class='post-new-form'>
-      <div class='post-img-area'><b class='img-text'>img</b></div>
+      <div class='post-img-area' id='image-list'></div>
       <div class='img-upload'>旅のベストショットを選んでください！
         <span class='post-indispensable'>必須</span>
-        <%= f.file_field :image, id:"item-image", class: 'post-img-btn' %>
+        <%= f.file_field :image, id:"post-image", class: 'post-img-btn' %>
       </div>
 
       <div class='post-new-upload'>旅のタイトルを記述してください！
