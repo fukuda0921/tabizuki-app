@@ -39,6 +39,36 @@
     <b class="posts-title">Tabi-Log</b>
   </div>
 
+
+  <% @posts.each do |post| %>
+  <div class='post-area'>
+      <%= image_tag post.image, class: "post-image-area" %>
+       
+      <div class='post-info-area'>
+        <div class='post-info-header'>
+        <b class='post-info-title'>
+        <%= post.title %>
+        </b>
+        </div>
+
+        <div class='post-info-text'>
+        <p class='post-info-message'>
+        <%= post.explain %>
+        </p>
+        </div>
+
+        <div class='post-info-footer'>
+        <p class='post-info-nickname'>
+        <%= "by #{post.user.nickname}" %>
+        </p>
+        </div>
+        
+      </div>
+  </div>
+  <% end %>
+
+
+<%# // 投稿がなければ表示させる%>
   <div class='post-area'>
       <%= image_tag "https://images.pexels.com/photos/805448/pexels-photo-805448.jpeg?cs=srgb&dl=pexels-iconcom-805448.jpg&fm=jpg",class: "post-image-area"%>
     <div class='post-info-area'>
