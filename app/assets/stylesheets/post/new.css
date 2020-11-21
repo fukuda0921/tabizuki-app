@@ -47,7 +47,7 @@ opacity: 0.8;
 }
 .post-img-area{
   margin: 0 auto;
-  width: 30vw;
+  width: 432px;
   height:300px;
   border: 1px solid black;
   margin-top: 15px;
@@ -74,6 +74,7 @@ opacity: 0.8;
    margin-top: 25px;
  }
 .select-box{
+  font-size: 14px;
   margin-top: 10px;
   margin-left: 10vw;
   border-top:none;
@@ -82,6 +83,7 @@ opacity: 0.8;
   outline: none;
 }
 .posts-text{
+  font-size: 14px;
   margin-left: 10vw;
   height: 30px;
   width: 25vw;
@@ -99,6 +101,7 @@ opacity: 0.8;
   font-size: 13px;
 }
 .posts-new-explain{
+  font-size: 14px;
   margin-top: 10px;
   margin-left: 10vw;
   width: 40vw;
