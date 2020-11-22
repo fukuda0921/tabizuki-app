@@ -8,13 +8,13 @@
   background-size: cover;
   background-position: center center;
   background-image: url(https://images.pexels.com/photos/347145/pexels-photo-347145.jpeg?cs=srgb&dl=pexels-tirachard-kumtanom-347145.jpg&fm=jpg);
+  
 }
 .top-message{
   display: flex;
   align-items: center;
-  width: 100vw;
   height: 30vh;
-  margin-left: 30vh;
+  margin-left: 15vw;
   font-size: 80px;
 }
 .first-message{
@@ -35,10 +35,10 @@
   background-color: 	#FF773E;
   border: 18px solid 	#FF773E;
   border-radius:70px;
-  margin-left: 280px;
+  margin-left: 25vw;
 }
 .sign-up{
-  margin-left: 100px;
+  margin-left: 13vh;
   background-color: 	#FF773E;
   border: 18px solid 	#FF773E;
   text-decoration: none;

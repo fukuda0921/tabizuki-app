@@ -53,13 +53,14 @@
 
         <div class='post-info-text'>
         <p class='post-info-message'>
-        <%= post.explain %>
+        <%=safe_join(post.explain.split("\n"),tag(:br))%>
+       
         </p>
         </div>
 
         <div class='post-info-footer'>
         <p class='post-info-nickname'>
-        <%= "by #{post.user.nickname}" %>
+        <%=link_to "by #{post.user.nickname}", user_path(post.user_id) ,class: "info-nickname"%>
         </p>
         </div>
         

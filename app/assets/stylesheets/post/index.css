@@ -5,6 +5,7 @@
   background-position: center center;
   background-attachment:fixed;
   background-image: url(https://images.pexels.com/photos/2303781/pexels-photo-2303781.jpeg?cs=srgb&dl=pexels-gya-den-2303781.jpg&fm=jpg);
+
 }
 .explanation-area{
   width: 100vw;
@@ -106,4 +107,8 @@
   .post-info-nickname{
     margin-left: 20vw;
     font-size: 12px;
+  }
+  .info-nickname{
+    text-decoration: none;
+    color:black;
   }
