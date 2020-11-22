@@ -41,11 +41,8 @@ font-size: 15px;
 }
 .indispensable{
   margin-left: 15px;
-  background-color: rgb(248, 52, 52);
-  border: 1px solid black;
-  border-radius: 80px;
   padding:3px;
-  color: white;
+  color: red;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .input-default-registration{

@@ -1,0 +1,68 @@
+.users-main{
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment:fixed;
+  background-image: url(https://images.pexels.com/photos/2303781/pexels-photo-2303781.jpeg?cs=srgb&dl=pexels-gya-den-2303781.jpg&fm=jpg);
+}
+.users-title{
+  height: 150px;
+}
+.users-title-text{
+  margin-top: 50px;
+  margin-left: 46vw;
+  display: inline-block;
+  font-size: 30px;
+  border-bottom: 2px solid black;
+}
+.profile-area{
+  height: 250px;
+  width: 40vw;
+  margin-left: 36vw;
+  display: flex;
+}
+.profile-title{
+width: 15vw;
+}
+
+.profile-title-text{
+  margin-top: 20px;
+}
+.profile-content{
+  width: 25vw;
+}
+.profile-content-text{
+  margin-top: 20px;
+}
+.user-profile-edit{
+  height: 80px;
+  display: flex;
+}
+.profile-edit{
+text-decoration: none;
+ color:white;
+ margin: auto;
+ border: 3px solid #FF773E;
+ border-radius: 100%;
+ padding: 25px;
+ background-color: #FF773E;
+}
+.post-nil{
+  height: 250px;
+  display: flex;
+}
+.post-nil-message{
+  margin: auto;
+  font-size: 20px;
+}
+.users-second{
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+.users-second-title{
+  margin-left: 15vw;
+  border-bottom:2px solid black;
+  font-size: 30px;
+}
