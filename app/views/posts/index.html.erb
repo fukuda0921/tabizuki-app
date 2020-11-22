@@ -11,7 +11,7 @@
         <p class='explanation-text'>
         このtabizukiは、今まで知らなかった地方の魅力に出会っていただくきっかけになればいいなという思いで作成しました！是非、これまで行ったことのない場所にも旅をして、全国を制覇しましょう！では、下記のボタン、もしくは自身の名前をクリックして、目標を設定しましょう
         </p>
-        <%= link_to 'マイページ', "#", class:"my-page"%>
+        <%= link_to 'マイページ', user_path(current_user.id), class:"my-page"%>
       </div>
       <div class= 'explanation-box'>
         <div class='explanation-title'>
