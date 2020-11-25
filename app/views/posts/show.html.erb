@@ -63,8 +63,8 @@
 
   <div class='post-show-footer'>
   <% if user_signed_in? && current_user.id == @post.user_id %>
-  <%= link_to 'Edit',"#",class:"show-nav" %>
-  <%= link_to 'Derete',"#",class:"show-nav" %>
+  <%= link_to 'Edit', edit_post_path,class:"show-nav" %>
+  <%= link_to 'Derete', post_path(@post.id), method: :delete, class:"show-nav" %>
   <% end %>
   </div>
 

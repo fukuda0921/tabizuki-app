@@ -1,0 +1,9 @@
+<div class='post-new-page'>
+<%= render "shared/header"%>
+  <div class='post-new-header'>
+  <h1 class='post-new-header-text'>投稿編集<h1>
+  </div>
+
+  <%= render partial: "shared/post-form", locals: { post: @post} %>
+  <%= render "shared/footer"%>
+</div>
