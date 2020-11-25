@@ -42,6 +42,7 @@
 
   <% @posts.each do |post| %>
   <div class='post-area'>
+    <%= link_to post_path(post.id), class:"post-show-link" do %>
       <%= image_tag post.image, class: "post-image-area" %>
        
       <div class='post-info-area'>
@@ -54,10 +55,9 @@
         <div class='post-info-text'>
         <p class='post-info-message'>
         <%=safe_join(post.explain.split("\n"),tag(:br))%>
-       
-        </p>
+       </p>
         </div>
-
+    <% end %>
         <div class='post-info-footer'>
         <p class='post-info-nickname'>
         <%=link_to "by #{post.user.nickname}", user_path(post.user_id) ,class: "info-nickname"%>

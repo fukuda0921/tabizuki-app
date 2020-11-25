@@ -7,7 +7,9 @@
 
   
     <ul class='profile-title'>
-      <li class='profile-title-text'>ニックネーム</li>
+      <li class='profile-title-text'>
+      ニックネーム
+      </li>
       <li class='profile-title-text'>
       出身地
       </li>
@@ -80,6 +82,7 @@
 
   <% @posts.each do |post| %>
   <div class='post-area'>
+    <%= link_to post_path(post.id), class:"post-show-link" do %>
       <%= image_tag post.image, class: "post-image-area" %>
        
       <div class='post-info-area'>
@@ -94,7 +97,7 @@
         <%= post.explain %>
         </p>
         </div>
-
+    <% end %> 
         <div class='post-info-footer'>
         <p class='post-info-nickname'>
         <%=link_to "by #{post.user.nickname}", user_path(post.user_id) ,class: "info-nickname"%>
