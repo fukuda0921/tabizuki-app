@@ -1,0 +1,65 @@
+.post-show-page{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+    background-image: url(https://images.pexels.com/photos/2303781/pexels-photo-2303781.jpeg?cs=srgb&dl=pexels-gya-den-2303781.jpg&fm=jpg);
+}
+.post-show-header{
+  height: 150px;
+  display: flex;
+}
+.post-show-title{
+ margin: auto;
+ font-size: 20px;
+}
+.show-img-area{
+  height: 500px;
+  display: flex;
+}
+.show-image{
+  width: 50vw;
+  height: 350px;
+  margin: auto;
+}
+.post-show-body{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.show-title{
+  margin-left: 15vw;
+  height: 350px;
+  width: 16vw;
+}
+.show-text{
+  margin-top: 30px;
+}
+.show-text-note{
+  font-size: 12px;
+}
+.show-content-area{
+  height: 480px;
+  width: 32vw;
+}
+
+.show-text-f{
+  margin-top: 55px;
+}
+.post-show-footer{
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-nav{
+margin: 10vw;
+text-decoration: none;
+ color:white;
+ border: 3px solid #FF773E;
+ border-radius: 100%;
+ padding: 35px;
+ background-color: #FF773E;
+}

@@ -1,0 +1,72 @@
+<div class='post-show-page'>
+<%= render "shared/header"%>
+
+  <div class='post-show-header'>
+  <b class='post-show-title'>
+  <%= @post.title %>
+  </b>
+
+  </div>
+  <div class='show-img-area'>
+   <%= image_tag @post.image,class:"show-image"%>
+  </div>
+
+  <div class='post-show-body'>
+    <ul class='show-title'>
+      <li class='show-text'>
+      投稿者
+      </li>
+      <li class='show-text'>
+      都道府県
+      </li>
+      <li class='show-text'>
+      訪れた場所
+      </li>
+      <li class='show-text'>
+      旅の費用
+      </li>
+      <b class='show-text-note'>
+      ※交通費は含まれていません
+      </b>
+      <li class='show-text'>
+      旅先での交通手段
+      </li>
+      <li class='show-text'>
+      旅先の良さ
+      </li>
+      <li class='show-text'>
+      </li>
+    </ul>
+  
+    <div class='show-content-area'>
+    <p class='show-text'>
+    <%= @post.user.nickname %>
+    </p>
+    <p class='show-text'>
+    <%= @post.prefecture.name%>
+    </p>
+    <p class='show-text'>
+    <%= @post.place %>
+    </p>
+    <p class='show-text'>
+    <%= @post.budget.name %>
+    </p>
+    <p class='show-text-f'>
+    <%= @post.transportation.name%>
+    </p>
+    <p class='show-text'>
+    <%=safe_join(@post.explain.split("\n"),tag(:br))%>
+    </p>
+    </div>
+  </div>
+
+
+  <div class='post-show-footer'>
+  <% if user_signed_in? && current_user.id == @post.user_id %>
+  <%= link_to 'Edit',"#",class:"show-nav" %>
+  <%= link_to 'Derete',"#",class:"show-nav" %>
+  <% end %>
+  </div>
+
+<%= render "shared/footer"%>
+</div>
