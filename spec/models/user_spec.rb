@@ -52,5 +52,17 @@ describe '#create' do
     @user.valid?
     expect(@user.errors.full_messages).to include()
   end
+  it 'prefecture_idが登録できる' do
+    @user.prefecture_id = 2
+    expect(@user).to be_valid
+  end
+  it 'targetが登録できる' do
+    @user.target = 'これはテストです'
+    expect(@user).to be_valid
+  end
+  it 'period_idが登録できる' do
+    @user.period_id = 1
+    expect(@user).to be_valid
+  end
 end
 end

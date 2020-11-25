@@ -4,6 +4,8 @@
   <p class='users-title-text'>Profile</p>
   </div>
   <div class='profile-area'>
+
+  
     <ul class='profile-title'>
       <li class='profile-title-text'>ニックネーム</li>
       <li class='profile-title-text'>
@@ -22,42 +24,58 @@
       <%= @user.nickname %>
       </p>
      
-      <% if @user.prefecture_id == nil %>
+
+      <% if @user.prefecture_id == nil || @user.prefecture_id == 0 %>
         <p class='profile-content-text'>
         設定されていません
         </p>
+      <%  else %>
+      <p class='profile-content-text'>
+        <%= @user.prefecture.name %>
+      </p>
       <% end %>
       
-      <% if @user.target == nil %>
+      
+      <% if @user.target == nil || @user.target == "" %>
       <p class='profile-content-text'>
       設定されていません
       </p>
+      <% else %>
+      <p class='profile-content-text'>
+      <%= @user.target %>
+      </p>
       <% end %>
+      
 
-      <% if @user.period_id == nil %>
+
+      <% if @user.period_id == nil || @user.period_id == 0 %>
       <p class='profile-content-text'>
       設定されていません
+      </p>
+      <% else %>
+      <p class='profile-content-text'>      
+      <%= @user.period.name %>
       </p>
       <% end %>
 
     </div>
   </div>
 
-<% if current_user.id == @user.id%>
-  <div class='user-profile-edit'>
-  <%= link_to 'Edit', "#", class: "profile-edit"%>
-  </div>
-<% end %>
+    <% if current_user.id == @user.id%>
+      <div class='user-profile-edit'>
+      <%= link_to 'Edit',edit_user_registration_path, class: "profile-edit"%>
+      </div>
+    <% end %>
 
-<div class='users-second'>
- <p class='users-second-title'>My-Log</p>
-</div>
+    <div class='users-second'>
+    <p class='users-second-title'>My-Log</p>
+    </div>
 
-<% if @user.posts == [] %>
-<div class='post-nil'>
-  <p class='post-nil-message'>まだ投稿がありません</p>
-</div>
-<% end %>
+    <% if @user.posts == [] %>
+    <div class='post-nil'>
+      <p class='post-nil-message'>まだ投稿がありません</p>
+    </div>
+    <% end %>
 
 
   <% @posts.each do |post| %>
