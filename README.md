@@ -10,7 +10,8 @@ Tabizuki
 
 
 # DEMO
-![トップページ(ユーザー管理)](https://user-images.githubusercontent.com/72489977/100369407-303cc680-3048-11eb-90e0-53b566cfc983.png)
+## トップページ(ユーザー管理)
+![スクリーンショット 2020-11-27 0 32 48](https://user-images.githubusercontent.com/72489977/100369407-303cc680-3048-11eb-90e0-53b566cfc983.png)
 
 
 
