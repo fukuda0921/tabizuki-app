@@ -21,7 +21,7 @@ http://54.168.136.182/
 
 # DEMO
 ## トップページ(ユーザー管理)
-![スクリーンショット 2020-11-27 0 32 48](https://user-images.githubusercontent.com/72489977/100369407-303cc680-3048-11eb-90e0-53b566cfc983.png)
+![readme6](https://user-images.githubusercontent.com/72489977/100865886-4250b600-34db-11eb-97cf-c6ad24f7e708.gif)
 ログイン、新規登録それぞれクリックすることで遷移します。
 ## 新規登録ページ
 ![readme1](https://user-images.githubusercontent.com/72489977/100859226-55ab5380-34d2-11eb-82c3-616cbcdc3071.gif)
@@ -29,35 +29,33 @@ http://54.168.136.182/
 必要項目を入力後登録ボタンをクリックすることでユーザー情報が登録されます。
 その後、トップページ(投稿)に遷移します
 ## ログインページ
-![スクリーンショット 2020-11-27 0 43 14](https://user-images.githubusercontent.com/72489977/100370407-9249fb80-3049-11eb-8799-70e61ac78ca7.png)
+![readme2](https://user-images.githubusercontent.com/72489977/100860983-8e4c2c80-34d4-11eb-90b3-fd331070820f.gif)
 必要な登録情報を入力後、 Log inボタンをクリックすると正しい情報であればトップページ(投稿)に遷移します。
 ##  トップページ(投稿)
-![スクリーンショット 2020-11-27 0 52 20](https://user-images.githubusercontent.com/72489977/100371243-d689cb80-304a-11eb-9865-41a1fddabcae.png)
+![readme5](https://user-images.githubusercontent.com/72489977/100865347-8ee7c180-34da-11eb-9663-4e76c4d1f3a2.gif)
 マイページボタンをクリックすると自身のユーザー情報表示ページに遷移します。
 新規登録ボタンをクリックすると新規投稿ページに遷移します。
 投稿されると写真、タイトル、感想、投稿者のニックネームが表示され、写真、タイトル、感想のいずれかをクリックすると投稿詳細ページに遷移します。また、投稿者のニックネームをクリックすると、投稿者のユーザー詳細ページに遷移します。
 ## マイページ(ユーザー詳細ページ)
-![スクリーンショット 2020-11-27 1 03 42](https://user-images.githubusercontent.com/72489977/100372335-7136da00-304c-11eb-8566-f897d2a52b6a.png)
+![readme4](https://user-images.githubusercontent.com/72489977/100864830-e76a8f00-34d9-11eb-836d-795c665a6449.gif)
 editボタンをクリックするとユーザー情報編集ページに遷移します。またeditボタンは自身の詳細ページのみ表示されます。
 ユーザーが投稿した写真、タイトル、感想、投稿者のニックネームのみが表示され、写真、タイトル、感想のいずれかをクリックすると投稿詳細ページに遷移します。
 ## ユーザー情報編集ページ
-![スクリーンショット 2020-11-27 1 08 36](https://user-images.githubusercontent.com/72489977/100372770-1b166680-304d-11eb-9918-3e55e781010c.png)
+![readme3](https://user-images.githubusercontent.com/72489977/100862718-db310280-34d6-11eb-98a9-29f0f6c5b4cb.gif)
 変更箇所の入力をおこない、更新するをクリックするとマイページに遷移します。
 編集内容は、マイページに反映されます。
 ## 新規投稿ページ
-![スクリーンショット 2020-11-27 1 19 25](https://user-images.githubusercontent.com/72489977/100373789-ab08e000-304e-11eb-9813-dccf0e07254e.png)
-![スクリーンショット 2020-11-27 1 19 42](https://user-images.githubusercontent.com/72489977/100373836-bbb95600-304e-11eb-8ff8-44b14eedb338.png)
+![readme7](https://user-images.githubusercontent.com/72489977/100866768-7f697800-34dc-11eb-8024-10401576f8d9.gif)i
 必須項目に入力をして投稿するをクリックすると投稿されます。
 トップページ(投稿)とユーザー詳細ページに反映されます。
 ## 投稿詳細ページ
-![スクリーンショット 2020-11-27 1 25 29](https://user-images.githubusercontent.com/72489977/100374455-a85aba80-304f-11eb-87e0-0f1f58988910.png)
-![スクリーンショット 2020-11-27 1 26 45](https://user-images.githubusercontent.com/72489977/100374501-bf011180-304f-11eb-877d-bbdbbab6e29e.png)
+![readme8](https://user-images.githubusercontent.com/72489977/100868152-8e512a00-34de-11eb-86cd-1e5b3eae519a.gif)
+
 editボタンをクリックすると投稿編集ページに遷移します。
 Deleteボタンをクリックすると投稿が削除されトップページ(投稿)に遷移します。
 二つのボタンは投稿者本人のみに表示されます。
 ## 投稿編集ページ
-![スクリーンショット 2020-11-27 1 40 31](https://user-images.githubusercontent.com/72489977/100375736-98dc7100-3051-11eb-9934-97247a20f1d9.png)
-![スクリーンショット 2020-11-27 1 40 45](https://user-images.githubusercontent.com/72489977/100375930-f1ac0980-3051-11eb-8fcd-946905d6f028.png)
+![readme9](https://user-images.githubusercontent.com/72489977/100868677-47176900-34df-11eb-8038-21eb4ef0631b.gif)
 編集箇所の入力をおこない、投稿をクリックすると投稿詳細ページに遷移します。
 編集箇所はトップページ(投稿)、ユーザー詳細ページと投稿詳細ページに反映されます。
 ## 工夫したポイント
