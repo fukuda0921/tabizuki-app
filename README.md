@@ -24,7 +24,7 @@ http://54.168.136.182/
 ![スクリーンショット 2020-11-27 0 32 48](https://user-images.githubusercontent.com/72489977/100369407-303cc680-3048-11eb-90e0-53b566cfc983.png)
 ログイン、新規登録それぞれクリックすることで遷移します。
 ## 新規登録ページ
-![2edbe00e26de1866557a2239fdef0f67](https://user-images.githubusercontent.com/72489977/100855416-7de48380-34cd-11eb-80c7-3e1604b45d67.gif)
+![readme1](https://user-images.githubusercontent.com/72489977/100858616-8fc82580-34d1-11eb-8ac0-07bb3ff75ca7.gif)
 必要項目を入力後登録ボタンをクリックすることでユーザー情報が登録されます。
 その後、トップページ(投稿)に遷移します
 ## ログインページ
