@@ -69,7 +69,7 @@
   <% end %>
 
 
-
+<% if @posts == [] %>
   <div class='post-area'>
       <%= image_tag "https://images.pexels.com/photos/805448/pexels-photo-805448.jpeg?cs=srgb&dl=pexels-iconcom-805448.jpg&fm=jpg",class: "post-image-area"%>
     <div class='post-info-area'>
@@ -84,6 +84,6 @@
       </div>
     </div>
   </div>
-  
+<% end %> 
 <%= render "shared/footer"%>
 </div>
